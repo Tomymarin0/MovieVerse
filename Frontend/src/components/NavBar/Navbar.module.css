@@ -1,0 +1,851 @@
+body{
+    padding-right:0px !important;
+}
+.containerNavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 40px;
+    font-size: 35px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    padding: auto;
+    background-color: #000000;
+
+}
+.colorNavbar2{
+    width: 100%;
+    background-color: #1B6DC1;
+    height: 20px;
+}
+.colorNavbar{
+    width: 100%;
+    background-color: #1B6DC1;
+    height: 20px;
+}
+.buttonNavbar{
+    position: static;
+    top: 10px;
+    right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 98%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navLink{
+    text-decoration:none;
+    color: black;
+}
+
+.navBarButtons{
+    font-family:sans-serif;
+    font-size: 0.4em;
+    color: white;
+    text-decoration: none;
+    text-underline-offset: none;
+    display: none;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    height: 6em;
+    display: none;
+}
+.logoMobile{
+    height: 0.8em;
+
+}
+.mobileBar{
+    color:#fff;
+    background-color: black !important;
+    box-shadow: none !important;
+}
+
+.linkMobile{
+    text-decoration: none;
+    color: #000000;
+}
+.buttontext{
+    color: #fff;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+.buttontext{
+    color: #fff;
+    display: none;
+    font-size: 1em !important;
+}
+
+.button{
+    margin-top: 10px;
+    display: none;
+}
+
+.iconito{
+    color: #fff;
+    size: 5em;
+    margin-right: 0em;
+    display: none;
+}
+
+.iconito{
+    color: #000000;
+    size: 5em;
+    margin-right: 0em;
+    display: none;
+}
+.buttontext2{
+    color: #000000;
+    display: none;
+    margin-left: auto !important;
+    
+}
+
+.button2{
+    margin-top: 10px;
+    display: block;
+}
+
+.iconito2{
+    color: #000000;
+    size: 5em;
+    margin-right: 0em;
+    display: none;
+}
+.BoxMobile{
+    width: 50%;
+    display: contents;
+    text-align: end;
+}
+
+@media (min-width: 350px) {
+    .containerNavbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        height: 70px;
+        font-size: 35px;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        padding: auto;
+        background-color: #000000;
+
+    }
+    .colorNavbar2{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 20px;
+    }
+    .colorNavbar{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 20px;
+    }
+    .buttonNavbar{
+        position: static;
+        top: 10px;
+        right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 98%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .navLink{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .navBarButtons{
+        font-family:sans-serif;
+        font-size: 0.4em;
+        color: black;
+        text-decoration: none;
+        text-underline-offset: none;
+        display: none;
+    }
+    .link{
+        text-decoration: none;
+        color: #fff;
+    }
+    .logo{
+        height: 6em;
+        display: none;
+    }
+    .logoMobile{
+        height: 1.2em;
+
+    }
+    .mobileBar{
+        color:white;
+        background-color: black !important;
+        box-shadow: none !important;
+    }
+
+    .linkMobile{
+        text-decoration: none;
+        color: #000000;
+    }
+    .buttontext{
+        color: #000000;
+        display: none;
+    }
+    
+    .button{
+        margin-top: 10px;
+        display: none;
+    }
+    
+    .iconito{
+        color: #000000;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+    .buttontext2{
+        color: #000000;
+        display: none;
+        margin-left: auto !important;
+    }
+    
+    .button2{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .iconito2{
+        color: white;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+    .BoxMobile{
+        width: 50%;
+        display: contents;
+        text-align: end;
+    
+    }
+
+
+}
+
+
+@media (min-width: 550px) {
+    .containerNavbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        height: 70px;
+        font-size: 35px;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        padding: auto;
+        background-color: #000000;
+
+
+    }
+    .colorNavbar2{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 20px;
+    }
+    .colorNavbar{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 20px;
+    }
+    .buttonNavbar{
+        position: static;
+        top: 10px;
+        right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 98%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .navLink{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .navBarButtons{
+        font-family:sans-serif;
+        font-size: 0.4em;
+        color: white;
+        text-decoration: none;
+        text-underline-offset: none;
+        display: none;
+    }
+    .link{
+        text-decoration: none;
+        color: #fff;
+    }
+    .logo{
+        height: 6em;
+        display: none;
+    }
+    .logoMobile{
+        height: 1.5em;
+
+    }
+    .mobileBar{
+        color:white;
+        background-color: #000000 !important;
+        box-shadow: none !important;
+    }
+
+    .linkMobile{
+        text-decoration: none;
+        color: #000000;
+    }
+    .buttontext{
+        color: white;
+        display: none;
+    }
+
+    
+    .button{
+        margin-top: 10px;
+        display: none;
+    }
+    
+    .iconito{
+        color: white;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+    .buttontext2{
+        color: white;
+        display: flex;
+        margin-left: auto !important;
+    }
+    
+    .button2{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .iconito2{
+        color: white;
+        size: 5em;
+        margin-right: 0.5em;
+        display: block;
+    }
+    .BoxMobile{
+        width: 50%;
+        display: contents;
+        text-align: end;
+    
+    }
+
+
+}
+
+@media (min-width: 750px) {
+    .containerNavbar{
+        background-color: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90vw;
+        height: 65px;
+        font-size: 35px;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        padding: auto;
+    }
+    .colorNavbar2{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 20px;
+    }
+    .colorNavbar{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 20px;
+    }
+    .buttonNavbar{
+        position: absolute;
+        top: -5px;
+        right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 98%;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .navLink{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .navBarButtons{
+        font-family:sans-serif;
+        font-size: 0.4em;
+        color: white;
+        text-decoration: none;
+        text-underline-offset: none;
+        display:block;
+    }
+    .link{
+        text-decoration: none;
+        color: #fff;
+    }
+    .logo{
+        height: 100%;
+        display:block;
+    }
+    .mobileBar{
+        display:none;
+    }
+    .buttontext{
+        color: #fff;
+        display: block;
+        font-size: 0.8em !important;
+    }
+    .buttontext2{
+        color: white;
+        display: none;
+    }
+    
+    .button{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .iconito{
+        color: #fff;
+        size: 5em;
+        margin-right: 0em;
+        display: block;
+    }
+    .buttontext2{
+        color: #000000;
+        display: none;
+    }
+    
+    .button2{
+        margin-top: 10px;
+        display: none;
+    }
+    
+    .iconito2{
+        color: #000000;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+
+}
+
+@media (min-width: 1055px) {
+    .containerNavbar{
+        background-color: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 98%;
+        height: 70px;
+        font-size: 35px;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        padding: auto;
+    }
+    .colorNavbar2{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 25px;
+    }
+    .colorNavbar{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 25px;
+    }
+    .buttonNavbar{
+        position: absolute;
+        top: -5px;
+        right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 98%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .navLink{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .navBarButtons{
+        font-family:sans-serif;
+        font-size: 0.6em;
+        color: white;
+        text-decoration: none;
+        text-underline-offset: none;
+        display:block;
+    }
+    .link{
+        text-decoration: none;
+     
+        color: #fff;
+    }
+    .logo{
+        width:auto;
+        height: 100%;
+        display:block;
+    }
+    .mobileBar{
+        display:none;
+    }
+
+    .buttontext{
+        color: #fff;
+        display: block;
+        font-size: 1em !important;
+    }
+
+    .buttontext2{
+        color: white;
+        display: none;
+    }
+    
+    .button{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .iconito{
+        color: #fff;
+        size: 5em;
+        margin-right: 0em;
+        display: block;
+    }
+    .buttontext2{
+        color: #000000;
+        display: none;
+    }
+    
+    .button2{
+        margin-top: 10px;
+        display: none;
+    }
+    
+    .iconito2{
+        color: #000000;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+}
+@media (min-width: 1255px) {
+    .containerNavbar{
+        background-color: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 98%;
+        height: 90px;
+        font-size: 35px;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        padding: auto;
+    }
+    .colorNavbar2{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 25px;
+    }
+    .colorNavbar{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 25px;
+    }
+    .buttonNavbar{
+        position: absolute;
+        top: -4px;
+        right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 98%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .navLink{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .navBarButtons{
+        font-family:sans-serif;
+        font-size: 0.8em;
+        color: white;
+        text-decoration: none;
+        text-underline-offset: none;
+        display:block;
+    }
+    .link{
+        text-decoration: none;
+     
+        color: #fff;
+    }
+    .logo{
+        width:auto;
+        height: 100%;
+        display:block;
+    }
+    .mobileBar{
+        display:none;
+    }
+
+    .buttontext{
+        color: #fff;
+        display: block;
+    }
+    
+    .button{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .iconito{
+        color: #fff;
+        size: 5em;
+        margin-right: 0em;
+        display: block;
+    }
+    .buttontext2{
+        color: #000000;
+        display: none;
+    }
+    
+    .button2{
+        margin-top: 10px;
+        display: none;
+    }
+    
+    .iconito2{
+        color: #000000;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+}
+
+@media (min-width: 1355px) {
+    .containerNavbar{
+        background-color: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 98%;
+        height: 90px;
+        font-size: 35px;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        padding: auto;
+    }
+    .colorNavbar2{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 30px;
+    }
+    .colorNavbar{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 30px;
+    }
+    .buttonNavbar{
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        width: 200px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .navLink{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .navBarButtons{
+        font-family:sans-serif;
+        font-size: 0.8em;
+        color: white;
+        text-decoration: none;
+        text-underline-offset: none;
+        display:block;
+    }
+    .link{
+        text-decoration: none;
+     
+        color: #fff;
+    }
+    .logo{
+        width:auto;
+        height: 100%;
+        display:block;
+    }
+    .mobileBar{
+        display:none;
+    }
+
+    .buttontext{
+        color: #fff;
+        display: block;
+    }
+    
+    .button{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .iconito{
+        color: #fff;
+        size: 5em;
+        margin-right: 0em;
+        display: block;
+    }
+    .buttontext2{
+        color: #000000;
+        display: none;
+    }
+    
+    .button2{
+        margin-top: 10px;
+        display: none;
+    }
+    
+    .iconito2{
+        color: #000000;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1470px) {
+    .containerNavbar{
+        background-color: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 98%;
+        height: 90px;
+        font-size: 35px;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        padding: auto;
+    }
+    .colorNavbar2{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 30px;
+    }
+    .colorNavbar{
+        width: 100%;
+        background-color: #1B6DC1;
+        height: 30px;
+    }
+    .buttonNavbar{
+        position: absolute;
+        top: -2px;
+        right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 98%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .navLink{
+        text-decoration:none;
+        color: black;
+    }
+    
+    .navBarButtons{
+        font-family:Roboto;
+        font-size: 1em;
+        color: white;
+        text-decoration: none;
+        text-underline-offset: none;
+        
+    }
+    .link{
+        text-decoration: none;
+     
+        color: #fff;
+    }
+    .logo{
+        width: auto;
+        height: 100%;
+        display:block;
+    }
+    .mobileBar{
+        display:none;
+    }
+
+    .buttontext{
+        color: #fff;
+        display: block;
+    }
+    
+    .button{
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .iconito{
+        color: #fff;
+        size: 5em;
+        margin-right: 0em;
+        display: block;
+    }
+    .buttontext2{
+        color: #000000;
+        display: none;
+    }
+    
+    .button2{
+        margin-top: 10px;
+        display: none;
+    }
+    
+    .iconito2{
+        color: #000000;
+        size: 5em;
+        margin-right: 0em;
+        display: none;
+    }
+
+}
+

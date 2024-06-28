@@ -1,0 +1,143 @@
+
+.Title{
+    font-family: Roboto;
+    color:white;
+    text-align: left;
+    font-size: 2em;
+    width: 65%;
+    display:inline;
+    margin-top: 1em;
+
+}
+
+.BoxGrid{
+    height: 35em;
+    width: 80%;
+    text-align: center;
+}
+
+.botones{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  font-family: Roboto;
+}
+
+.Table th,
+.Table td {
+  border: 3px solid #1B6DC1;
+  padding: 8px;
+  color: white;
+
+}
+
+
+.Table th {
+  background-color: black;
+}
+
+.Table td {
+  background-color: black;
+}
+
+.Button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #333;
+}
+
+.marginTop2{
+  height:auto !important; 
+  font-size: auto !important;
+  width: auto !important;
+}
+
+.boxTabla{
+  min-height: 22em;
+}
+
+@media (min-width: 580px) {
+    .Title{
+        font-family: Roboto;
+        color:white;
+        text-align: left;
+        font-size: 2em;
+        width: 65%;
+        display:inline;
+        margin-top: 1em;
+    
+    }
+    
+    .BoxGrid{
+        height: 35em;
+        width: 70%;
+        text-align: center;
+    }
+
+
+    .botones{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Table {
+        width: 60%;
+        max-width: 50%;
+        margin: auto;
+        border-collapse: collapse;
+        font-family: Roboto;
+      }
+      
+      .Table th,
+      .Table td {
+        border: 3px solid #1B6DC1;
+        padding: 8px;
+        color: white;
+
+      }
+      
+      
+      .Table th {
+        background-color: black;
+      }
+      
+      .Table td {
+        background-color: black;
+      }
+      
+      .Button {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .Button:hover {
+        background-color: #333;
+      }
+
+    .marginTop2{
+      height:auto !important; 
+      font-size: auto !important;
+      width: auto !important;
+  
+  }
+  .boxTabla{
+    min-height: 40em;
+  }
+      
+}
+
+

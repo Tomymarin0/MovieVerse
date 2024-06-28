@@ -1,0 +1,643 @@
+.Title{
+    margin-top: 1em;
+    font-family: Roboto;
+    color:white;
+    text-align: center;
+    font-size: 1em;
+}
+
+.Cuerpo{
+    font-family: Roboto;
+    color:white;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.5em;
+    max-width: 80%;
+
+}
+
+.box1{
+    display:inline-grid;
+    text-align: left;
+    width: 50%;
+}
+
+.box2{
+    display:flex;
+    text-align: center;
+    width: 100%;
+}
+
+.App {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.imagen{
+    margin-top: 20px;
+    display:flex;
+    text-align: right;
+    align-items: center;
+    width: 100%;
+    max-height: 500px;
+}
+.paperStyle{
+    padding: 40px;
+    width: 30em;
+    margin: 20px;
+}
+
+.buttonCalificar{
+    margin-left: auto !important;
+    width: 100%;
+}
+
+.cajaBotones{
+    justify-content: space-around;
+    margin-top: 1em;
+    display: flex !important;
+    width: auto;
+
+}
+
+.marginTop{
+    margin-top: 10; 
+    height:5em; 
+    font-size: 0.6em !important;
+    background-color: #1B6DC1 !important;
+    width: auto;
+
+}
+.marginTop2{
+    margin-top: 10; 
+    height:5em; 
+    font-size: 0.5em !important;
+    background-color: #1B6DC1 !important;
+    width: 10% !important;
+
+}
+
+@media (min-width: 300px) {
+    .Title{
+        margin-top: 1em;
+        font-family: Roboto;
+        color:white;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .Cuerpo{
+        font-family: Roboto;
+        color:white;
+        font-weight: normal;
+        text-align: center;
+        font-size: 0.5em;
+        max-width: 80%;
+
+    }
+    
+    .box1{
+        display:inline-grid;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .box2{
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .App {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+    .imagen{
+        margin-top: 20px;
+        display:flex;
+        text-align: right;
+        align-items: center;
+        width: 100%;
+        max-height: 500px;
+    }
+    .paperStyle{
+        padding: 40px;
+        width: 30em;
+        margin: 20px;
+    }
+    
+    .buttonCalificar{
+        margin-left: auto !important;
+        width: 100%;
+    }
+
+    .cajaBotones{
+        justify-content: space-around;
+        margin-top: 1em;
+        display: flex !important;
+        width: auto;
+
+    }
+
+    .marginTop{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        width: auto;
+
+    }
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.5em !important;
+        background-color: #1B6DC1 !important;
+        width: 10% !important;
+
+    }
+}
+
+@media (min-width: 400px) {
+    .Title{
+        margin-top: 1em;
+        font-family: Roboto;
+        color:white;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    .Cuerpo{
+        font-family: Roboto;
+        color:white;
+        font-weight: normal;
+        text-align: center;
+        font-size: 0.6em;
+        max-width: 80%;
+
+    }
+    
+    .box1{
+        display:inline-grid;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .box2{
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .App {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+    .imagen{
+        margin-top: 20px;
+        display:flex;
+        text-align: right;
+        align-items: center;
+        width: 80%;
+        max-height: 500px;
+    }
+    .paperStyle{
+        padding: 40px;
+        width: 30em;
+        margin: 20px;
+    }
+    
+    .buttonCalificar{
+        margin-left: auto !important;
+    }
+
+    .cajaBotones{
+        justify-content: space-around;
+        margin-top: 1em;
+        display: flex !important;
+        width: auto;
+
+    }
+
+    .marginTop{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        width: auto;
+
+    }
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.5em !important;
+        background-color: #1B6DC1 !important;
+        width: 10% !important;
+
+    }
+}
+
+
+@media (min-width: 600px) {
+    .Title{
+        margin-top: 1em;
+        font-family: Roboto;
+        color:white;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    .Cuerpo{
+        font-family: Roboto;
+        color:white;
+        font-weight: normal;
+        text-align: center;
+        font-size: 0.9em;
+        max-width: 80%;
+
+    }
+    
+    
+    .box1{
+        display:inline-grid;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .box2{
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .App {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+    .imagen{
+        margin-top: 20px;
+        display:flex;
+        text-align: right;
+        align-items: center;
+        width: 80%;
+        max-height: 500px;
+    }
+    .paperStyle{
+        padding: 40px;
+        width: 30em;
+        margin: 20px;
+    }
+    
+    .buttonCalificar{
+        margin-left: auto !important;
+    }
+    .cajaBotones{
+        justify-content: space-around;
+        margin-top: 1em;
+        display: flex !important;
+        width: auto;
+
+    }
+
+    .marginTop{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        width: auto;
+
+    }
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.5em !important;
+        background-color: #1B6DC1 !important;
+        width: 10% !important;
+
+    }
+}
+
+@media (min-width: 750px) {
+    .Title{
+        margin-top: 0.5em;
+        font-family: Roboto;
+        color:white;
+        text-align: center;
+        font-size: 1.7em;
+    }
+    
+    .Cuerpo{
+        font-family: Roboto;
+        color:white;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.1em;
+        max-width: 80%;
+
+    }
+    
+    .box1{
+        display:inline-grid;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .box2{
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .App {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+    .imagen{
+        margin-top: 20px;
+        display:flex;
+        text-align: right;
+        align-items: center;
+        width: 80%;
+        max-height: 500px;
+    }
+    .paperStyle{
+        padding: 40px;
+        width: 30em;
+        margin: 20px;
+    }
+    
+    .buttonCalificar{
+        margin-left: auto !important;
+        width: 24%;
+    }
+
+
+    .cajaBotones{
+        justify-content: space-around;
+        margin-top: 1em;
+        display: flex !important;
+        width: auto;
+
+    }
+
+    .marginTop{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        width: auto;
+
+    }
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.5em !important;
+        background-color: #1B6DC1 !important;
+        width: 10% !important;
+
+    }
+}
+
+@media (min-width: 1000px) {
+    .Title{
+        margin-top: 0.5em;
+        font-family: Roboto;
+        color:white;
+        text-align: center;
+        font-size: 1.9em;
+    }
+    
+    .Cuerpo{
+        font-family: Roboto;
+        color:white;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.33em;
+        max-width: 80%;
+
+    }
+    
+    .box1{
+        display:inline-grid;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .box2{
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .App {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+    .imagen{
+        margin-top: 20px;
+        display:flex;
+        text-align: right;
+        align-items: center;
+        width: 80%;
+        max-height: 500px;
+    }
+
+    .paperStyle{
+        padding: 40px;
+        width: 30em;
+        margin: 20px;
+    }
+    
+    .buttonCalificar{
+        margin-left: auto !important;
+        width: 28%;
+        min-width: 83px !important;
+    }
+
+    .cajaBotones{
+        justify-content: space-around;
+        margin-top: 1em;
+        display: flex !important;
+        width: auto;
+
+    }
+
+    .marginTop{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        width: auto;
+
+    }
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.5em !important;
+        background-color: #1B6DC1 !important;
+        width: 10% !important;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .Title{
+        margin-top: 0.5em;
+        font-family: Roboto;
+        color:white;
+        text-align: center;
+        font-size: 1.9em;
+    }
+    
+    .Cuerpo{
+        font-family: Roboto;
+        color:white;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.4em;
+        max-width: 80%;
+
+    }
+    
+    
+    .box1{
+        display:inline-grid;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .box2{
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .App {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+    .imagen{
+        margin-top: 20px;
+        display:flex;
+        text-align: right;
+        align-items: center;
+        width: 80%;
+        max-height: 500px;
+    }
+
+    .paperStyle{
+        padding: 40px;
+        width: 30em;
+        margin: 20px;
+    }
+    
+    .buttonCalificar{
+        margin-left: auto !important;
+        width: 24%;
+        min-width: 83px !important;
+    }
+
+    .cajaBotones{
+        justify-content: space-around;
+        margin-top: 1em;
+        display: flex !important;
+        width: auto;
+
+    }
+
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        width: auto;
+
+    }
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        width: 0%;
+
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .Title{
+        margin-top: 0.5em;
+        font-family: Roboto;
+        color:white;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    
+    .Cuerpo{
+        font-family: Roboto;
+        color:white;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.4em;
+        max-width: 80%;
+    }
+    
+    
+    .box1{
+        display:inline-grid;
+        text-align: left;
+        width: 50%;
+    }
+    
+    .box2{
+        display:flex;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .App {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+    .imagen{
+        margin-top: 20px;
+        display:flex;
+        text-align: right;
+        align-items: center;
+        width: 80%;
+        max-height: 500px;
+    }
+
+    .paperStyle{
+        padding: 40px;
+        width: 30em;
+        margin: 20px;
+
+    }
+
+    .buttonCalificar{
+        margin-left: auto !important;
+        width: 24%;
+        min-width: 83px !important;
+    }
+
+    .cajaBotones{
+        justify-content: space-around;
+        margin-top: 1em;
+        display: flex !important;
+        width: auto;
+    }
+    
+    .marginTop{
+        margin-top: 10; 
+        height:4em; 
+        font-size: 1em;
+        background-color: #1B6DC1 !important;
+        
+    }
+    .marginTop2{
+        margin-top: 10; 
+        height:5em; 
+        font-size: 0.6em !important;
+        background-color: #1B6DC1 !important;
+        
+    }
+}

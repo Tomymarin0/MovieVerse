@@ -1,0 +1,49 @@
+.Title{
+    font-family: Roboto;
+    color:white;
+    text-align: left;
+    font-size: 2em;
+    width: 65%;
+    display:inline;
+    margin-top: 1em;
+
+}
+
+.BoxGrid{
+    height: 35em;
+    width: 65%;
+    text-align: center;
+}
+
+.botones{
+    display: table-caption;
+
+}
+
+@media (min-width: 580px) {
+    .Title{
+        font-family: Roboto;
+        color:white;
+        text-align: left;
+        font-size: 2em;
+        width: 65%;
+        display:inline;
+        margin-top: 1em;
+    
+    }
+    
+    .BoxGrid{
+        height: 35em;
+        width: 70%;
+        text-align: center;
+    }
+
+
+    .botones{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+
